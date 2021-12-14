@@ -18,6 +18,7 @@ hackatonUPB.profile
 */
 
 var mongoose = require('mongoose')
+
 var User = require('./User')
 mongoose.Promise = global.Promise
 mongoose.connect('mongodb+srv://userHackaton:userHackaton123@cluster0.ycae8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useMongoClient: true})
