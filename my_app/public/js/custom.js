@@ -10,7 +10,7 @@ new WOW().init();
 
 /**== loader js ==*/
 
-$(window).load(function() {
+$(window).on('load', function() {
     $(".bg_load").fadeOut("slow");
 })
 
@@ -37,7 +37,7 @@ $("#navbar_menu").menumaker({
 
 /** progress_bar js **/
 	
-	 $(document).ready(function() {
+	 $(document).ready( function() {
       $('.progress .progress-bar').css("width",
                 function() {
                     return $(this).attr("aria-valuenow") + "%";
@@ -86,13 +86,14 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
 /**===== Slider =====**/
 
-var tpj = jQuery;
+var tpj = $;
 var revapi4;
 tpj(document).ready(function() {
     if (tpj("#rev_slider_4_1").revolution == undefined) {
-        // revslider_showDoubleJqueryError("#rev_slider_4_1");
+        revslider_showDoubleJqueryError("#rev_slider_4_1");
     } else {
-        revapi4 = tpj("#rev_slider_4_1").show().revolution({
+        console.log("111111")
+        revapi4 = tpj("#rev_slider_4_1").show().revolution({            
             sliderType: "standard",
             jsFileLocation: "revolution/js/",
             sliderLayout: "fullwidth",
@@ -190,7 +191,7 @@ tpj(document).ready(function() {
 	
 /** header fixed js **/
 
-$(window).scroll(function(){
+$(window).on('scroll',function(){
     if ($(window).scrollTop() >= 300) {
        $('.header_fixed_on_scroll').addClass('fixed-header');
     }

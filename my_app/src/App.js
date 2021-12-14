@@ -10,8 +10,6 @@ import {Index} from './pages/index'
 import {Footer} from './pageframe/footer/footer'
 import {Nav} from './pageframe/nav/nav'
 
-
-
 function App() {
   return (
     <div className="App">
@@ -19,8 +17,9 @@ function App() {
       <Router >
         <Nav />
         <Routes>
-          <Route path="/" component={Index}></Route>
+          <Route path="/" element={<Index />}></Route>
           </Routes>
+          
         <Footer />
       </Router>
 
