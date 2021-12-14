@@ -1,18 +1,30 @@
-import React,{Fragment} from 'react'
+import logo from './logo.svg';
+import {
+  Switch,
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Redict
+} from 'react-router-dom'
+import {Index} from './pages/index'
+import {Footer} from './pageframe/footer/footer'
+import {Nav} from './pageframe/nav/nav'
+
 
 
 function App() {
   return (
-    <Fragment>
-      <nav className='navbar navbar-dark bg-dark'>
-        <div className='container'>
-          <a href='#!' className='navbar-brand'>
-            Image
-          </a>
+    <div className="App">
 
-        </div>
-      </nav>
-    </Fragment>
+      <Router >
+        <Nav />
+        <Routes>
+          <Route path="/" component={Index}></Route>
+          </Routes>
+        <Footer />
+      </Router>
+
+    </div>
   );
 }
 
