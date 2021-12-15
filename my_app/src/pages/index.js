@@ -1,62 +1,65 @@
-import React from 'react'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { Image } from "semantic-ui-react";
+import { Contenido_servicios } from "../components/contenido_servicios";
+
 
 export const Index = () => {
-    return (
-        <>
-        <div class="bg_load"> <img class="loader_animation" src="%PUBLIC_URL%/images/loaders/loader_1.png" alt="#" /> </div>
-            <div id="slider" className="section main_slider">
-        <div className="container-fuild">
-          <div className="row">
-            <div id="rev_slider_4_1_wrapper" className="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style={{margin: '0px auto', backgroundColor: 'transparent', padding: '0px', marginTop: '0px', marginBottom: '0px'}}>
-              {/* START REVOLUTION SLIDER 5.0.7 auto mode */}
-              <div id="rev_slider_4_1" className="rev_slider fullwidthabanner" style={{display: 'none'}} data-version="5.0.7">
-                <ul>
-                  <li data-index="rs-1812" data-transition="zoomin" data-slotamount={7} data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed={2000} data-thumb="images/it_service/slide1.jpg" data-rotate={0} data-saveperformance="off" data-title="Computer Services" data-description>
-                    {/* MAIN IMAGE */}
-                    <img src="images/it_service/slide1.jpg" alt="#" data-bgposition="center center" data-kenburns="on" data-duration={30000} data-ease="Linear.easeNone" data-scalestart={100} data-scaleend={120} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax={10} className="rev-slidebg" data-no-retina />
-                    {/* LAYERS */}
-                    {/* LAYER NR. BG */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-270-layer-1012" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="s:300;s:300;" data-start={750} data-basealign="slide" data-responsive_offset="on" data-responsive="off" style={{zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.25)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 1 */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-912" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" data-width={2000} data-height={140} data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start={2000} data-responsive_offset="on" style={{zIndex: 5, backgroundColor: 'rgba(29, 29, 29, 0.85)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 2 */}
-                    <div className="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-112" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','35']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.04" style={{zIndex: 6, whiteSpace: 'nowrap'}}>Consigue el servicio que deseas</div>
-                    {/* LAYER NR. 3 */}
-                    <div className="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-412" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} data-splitin="none" data-splitout="none" data-responsive_offset="on" style={{zIndex: 7, whiteSpace: 'nowrap'}}>Disponible en getIt.com </div>
-                  </li>
-                  <li data-index="rs-181" data-transition="zoomin" data-slotamount={7} data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed={2000} data-thumb="images/it_service/slide2.jpg" data-rotate={0} data-saveperformance="off" data-title="Easy To Use & Customize" data-description>
-                    {/* MAIN IMAGE */}
-                    <img src="images/it_service/slide2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration={30000} data-ease="Linear.easeNone" data-scalestart={100} data-scaleend={120} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax={10} className="rev-slidebg" data-no-retina />
-                    {/* LAYERS */}
-                    {/* LAYER NR. BG */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-270-layer-101" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="s:300;s:300;" data-start={750} data-basealign="slide" data-responsive_offset="on" data-responsive="off" style={{zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.25)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 1 */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-91" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" data-width={2000} data-height={140} data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start={2000} data-responsive_offset="on" style={{zIndex: 5, backgroundColor: 'rgba(29, 29, 29, 0.85)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 2 */}
-                    <div className="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','35']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style={{zIndex: 6, whiteSpace: 'nowrap'}}>Rápido y accesible</div>
-                    {/* LAYER NR. 3 */}
-                    <div className="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-41" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} data-splitin="none" data-splitout="none" data-responsive_offset="on" style={{zIndex: 7, whiteSpace: 'nowrap'}}>Disponible en getIt.com</div>
-                  </li>
-                  <li data-index="rs-18" data-transition="zoomin" data-slotamount={7} data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed={2000} data-thumb="images/it_service/slide3.jpg" data-rotate={0} data-saveperformance="off" data-title="Perfectly Responsive" data-description>
-                    {/* MAIN IMAGE */}
-                    <img src="images/it_service/slide3.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration={30000} data-ease="Linear.easeNone" data-scalestart={100} data-scaleend={120} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax={10} className="rev-slidebg" data-no-retina />
-                    {/* LAYERS */}
-                    {/* LAYER NR. BG */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-270-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="s:300;s:300;" data-start={750} data-basealign="slide" data-responsive_offset="on" data-responsive="off" style={{zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.25)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 1 */}
-                    <div className="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-9" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" data-width={2000} data-height={140} data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start={2000} data-responsive_offset="on" style={{zIndex: 5, backgroundColor: 'rgba(29, 29, 29, 0.85)', borderColor: 'rgba(0, 0, 0, 0.50)'}}> </div>
-                    {/* LAYER NR. 2 */}
-                    <div className="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','35']" data-lineheight="['70','70','70','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style={{zIndex: 6, whiteSpace: 'nowrap'}}>Nosotros somos: Get IT! </div>
-                    {/* LAYER NR. 3 */}
-                    <div className="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" id="slide-18-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} data-splitin="none" data-splitout="none" data-responsive_offset="on" style={{zIndex: 7, whiteSpace: 'nowrap'}}>Disponible en getIt.com </div>
-                  </li>
-                </ul>
-                <div className="tp-static-layers" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        </>
-    )
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      paritialVisibilityGutter: 60
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      paritialVisibilityGutter: 50
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      paritialVisibilityGutter: 30
+    }
+  };
+  const images = [
+    "http://localhost:3000/images/fevicon/fevicon.png",
+    "https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550223640-23097fc71cb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550353175-a3611868086b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550330039-a54e15ed9d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1549737328-8b9f3252b927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1549833284-6a7df91c1f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1549985908-597a09ef0a7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "https://images.unsplash.com/photo-1550064824-8f993041ffd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+  ];
+  
+  return (
+    <div className="container text-center">
+    <img src={images[0]} alt=""></img>
+    {/* section 
+    <Carousel
+      ssr
+      partialVisbile
+      deviceType={"tablet"}
+      itemClass="image-item"
+      responsive={responsive}
+      {images.slice(0, 5).map(image => {
+        console.log(image)
+        return (
+          <Image
+            key ="{image}"
+            draggable={false}
+            style={{ width: "100%", height: "100%" }}
+            src={image}
+          />
+        );
+      })}
+    </Carousel>*/}
+    <Contenido_servicios />
+</div>
+  )
 }

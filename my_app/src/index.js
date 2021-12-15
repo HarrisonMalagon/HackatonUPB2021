@@ -1,8 +1,21 @@
+import $ from 'jquery';
+
+// const bootstrap = require('bootstrap');
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// import jQuery from 'jquery';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
 
 ReactDOM.render(
   <React.StrictMode>
