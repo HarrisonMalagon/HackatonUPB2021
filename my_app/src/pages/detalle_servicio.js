@@ -1,6 +1,13 @@
 import React from 'react'
+import {
+  useParams
+} from "react-router-dom";
 
 export const Detalle_servicio = () => {
+
+  let { id } = useParams();
+
+  console.log(id)
     return (
         <div>
                   <div>
@@ -33,7 +40,7 @@ export const Detalle_servicio = () => {
                 <div className="row">
                   <div className="col-md-12 service_blog margin_bottom_50">
                     <div className="full">
-                      <div className="service_img"> <img className="img-responsive" src="/images/it_service/post-02.jpg" alt="#" /> </div>
+                      <div className="service_img"> <img className="img-responsive" style={{'maxHeight':'550px'}} src={"/images/it_service/"+id+".jpg"} alt="#" /> </div>
                       <div className="service_cont">
                         <h3 className="service_head">Data recovery</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
