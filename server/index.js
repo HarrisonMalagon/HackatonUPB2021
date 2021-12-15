@@ -1,6 +1,7 @@
 // IMPORTAR XPRESS
 const express = require('express');
 const PersonaRouter = require('./routers/personaRouter');
+const ServicioRouter = require('./routers/servicioRouter');
 const mongoose = require('mongoose');
 const key_database = require('./database/key_database');
 
@@ -28,12 +29,16 @@ class Server{
             // https://developer.mozilla.org/es/docs/Web/HTTP/Status
             res.status(200).json({"messages":"All OK-- Esta bien el server"});
         });
+
         //CREAR OBJETOS ROUTERS
         const objPersonaR = new PersonaRouter();
+        const objServicioR = new ServicioRouter();
 
         // *******Añadir rutas a express******
         this.app.use(router);
         this.app.use(objPersonaR.router)
+        this.app.use(objServicioR.router)
+
         // Levantar el servidor o Ponerlo a la escucha
         this.app.listen(this.app.get('port'),()=>{
             console.log("Servidor Corriendo por el puerto=>", this.app.get('port'));

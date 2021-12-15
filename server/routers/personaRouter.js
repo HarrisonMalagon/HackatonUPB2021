@@ -10,6 +10,7 @@ class PersonaRouter{
     //MEOTODOS
     config(){
         const objPersonaC= new PersonaController();
+        // const objPersonaC= new PersonaController();
         // siempre se organiza de menor a mayor
         this.router.get('/personas',objPersonaC.getPersona);
         this.router.get('/personas/:category',objPersonaC.getPersonaCategory);
