@@ -144,7 +144,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="/images/it_service/slide3.jpg" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/slide4.jpg" alt="#" /></div>
                         <h4 className="service-heading">Servicio rápido</h4>
                         <p>Arregla el horario que convenga para ti y el prestador del servicio.</p>
                       </div>
