@@ -63,12 +63,3 @@ export const Index = () => {
 </div>
   )
 }
-
-
-
-
-
-
-
-
-

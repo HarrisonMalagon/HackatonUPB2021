@@ -22,7 +22,7 @@ export const Detalle_servicio = () => {
                       <h1 className="page-title">Detalle del Servicio</h1>
                       <ol className="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li className="active">Services Detail</li>
+                        <li className="active">Detalles del Servicio</li>
                       </ol>
                     </div>
                   </div>
@@ -34,7 +34,7 @@ export const Detalle_servicio = () => {
         {/* end inner page banner */}
         {/* section */}
         <div className="section padding_layout_1 service_list">
-          <div className="container">
+          <div className="container  text-center">
             <div className="row">
               <div className="col-md-9">
                 <div className="row">
@@ -42,15 +42,16 @@ export const Detalle_servicio = () => {
                     <div className="full">
                       <div className="service_img"> <img className="img-responsive" style={{'maxHeight':'550px'}} src={"/images/it_service/"+id+".jpg"} alt="#" /> </div>
                       <div className="service_cont">
-                        <h3 className="service_head">Data recovery</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                          when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
-                          into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
-                          passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br />
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        
+                        <h3 className="service_head">Servicio de plomeria</h3>
+                        <p>Destape de cañerias sin romper. 
+                        <br />Maquinaria especializada, 
+                        <br />Detección de fuga con geófono. 
+
+                        <br />Encuentre, no rompemos. 
+                        <br />Reparación y cambio de toda clase de griferias. 
+                        <br />Reparación e instalación de sistemas hidráulicos<br /></p>
                       </div>
                     </div>
                   </div>

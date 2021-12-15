@@ -133,7 +133,7 @@ export const Footer = () => {
                 <div className="full">
                   <div className="main_heading text_align_left">
                     <h2>Proceso de Servicios</h2>
-                    <p className="large">Manera fácil y eficaz de conseguir lo que necesitas.</p>
+                    <p className="large">Manera eficaz de conseguir lo que necesitas.</p>
                   </div>
                 </div>
               </div>

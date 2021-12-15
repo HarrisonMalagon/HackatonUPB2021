@@ -23,18 +23,20 @@ export const Registro = () => {
           <div className="row">
             <div className="col-md-12 text-center">
           <div className="imagen_wrapper w-100 text-center">
-            <img className="imagen" src="landing_logo.png" alt="" />
+            <img className="imagen" src="/landing_logo.png" alt="" />
           </div>
         <br/>
         <form id="form_nuevo_usuario mb-5" >
             <label htmlFor="lnombre">Nombre del Usuario:</label>
             <input id="dato_nombre_usuario" className="border-bottom" type="text" name="lnombre" /><br/><br/>
 
-            <label htmlFor="ledad">Edad:</label>
-            <input type="number" id="dato_edad_usuario" className="border-bottom" name="ledad" step="1" min="0" max="120" value="" style={{'lineHeight':1}} /><br/><br/>
+            
 
-            <label htmlFor="lcontrasena">Contraseña:</label>
-            <input type="password" id="dato_contrasena" className="border-bottom" name="lcontrasena" /><br/><br/><br/><br/>
+            <label htmlFor="lcontrasena">Correo:</label>
+            <input type="text" id="dato_contrasena" className="border-bottom" name="lcontrasena" /><br/><br/><br/><br/>
+
+            <label htmlFor="ledad">Contraseña:</label>
+            <input type="password" id="dato_edad_usuario" className="border-bottom" name="ledad" step="1" min="0" max="580" value="" style={{'lineHeight':1}} /><br/><br/>
 
             <button onClick="agregarRegistro(); return false;"  className="my_button" id="enviar_registro">Enviar Registro</button>
         

@@ -25,7 +25,7 @@ export const Login = () => {
         <div className="row">
           <div className="col-md-12">
         <div className="imagen_wrapper w-100 text-center">
-          <img className="imagen" src="landing_logo.png" alt="" />
+          <img className="imagen" src="/landing_logo.png" alt="" />
         </div>
         <form className="formulario">
           <div className="contenedor">
@@ -34,12 +34,12 @@ export const Login = () => {
               <input id="in_login_username" type="text" placeholder="Usuario" />
             </div>
             <div className="input-contenedor">
-              <i className="fas fa-key icon" />
+            <i className="fa fa-user icon" />
               <input id="in_login_password" type="password" placeholder="Contraseña" />
             </div>
             <div className="input-contenedor">
               <i className="fa fa-refresh" aria-hidden="true" />
-              <input id="in_login_captcha" type="rcaptcha" placeholder="¿Cuál es la capital de Colombia?" />
+              <input id="in_login_captcha" type="rcaptcha" placeholder="¿Capital de Colombia?" />
             </div>
             <input type="submit" defaultValue="Login" className="button" />
             <p>
