@@ -11,6 +11,7 @@ import { Lista_servicios } from './pages/lista_servicios';
 import { Registro } from './pages/registro';
 import { Login } from './pages/login';
 import { Detalle_servicio } from './pages/detalle_servicio';
+import { Nuevo_servicio } from './pages/nuevo_servicio';
 
 function AppRouter() {
 
@@ -29,6 +30,7 @@ function AppRouter() {
           <Route path="/registro" element={<Registro />}></Route>
           <Route path="/lista_servicios" element={<Lista_servicios />}></Route>
           <Route path="/detalle_servicio" element={<Detalle_servicio />}></Route>
+          <Route path="/servicios/nuevo" element={<Nuevo_servicio />}></Route>
           </Routes>
           
           {/* {rutas_excluidas.includes(location.pathname) ? null : <Footer />} */}

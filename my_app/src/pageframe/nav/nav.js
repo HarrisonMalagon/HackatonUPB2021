@@ -94,21 +94,9 @@ export const Nav = () => {
                   <div id="navbar_menu">
                     <ul className="first-ul">
                       <li>
-                        <a className="active" href="/it_home.html">
+                        <a className="active" href="/">
                           Home
                         </a>
-                        <ul>
-                          <li>
-                            <a href="/it_home.html">
-                              It Home Page
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/it_home_dark.html">
-                              It Dark Home Page
-                            </a>
-                          </li>
-                        </ul>
                       </li>
                       <li>
                         <a href="/registro/">Regístrate</a>
@@ -127,8 +115,8 @@ export const Nav = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="/it_shop.html">
-                              Solicitar Servicios
+                            <a href="/servicios/nuevo">
+                              Ofrecer Servicios
                             </a>
                           </li>
                           <li>
