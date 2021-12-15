@@ -29,4 +29,8 @@ app.listen (9000,()=>{
 })
 
 
+<<<<<<< Updated upstream
 // app.use(cors())
+=======
+// app.use(cors())
+>>>>>>> Stashed changes
