@@ -152,15 +152,6 @@ export const Nav = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="search_icon">
-                    <ul>
-                      <li>
-                        <a href="/#" data-toggle="modal" data-target="#search_bar">
-                          <i className="fa fa-search" aria-hidden="true" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>

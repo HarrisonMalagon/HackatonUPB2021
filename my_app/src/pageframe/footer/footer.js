@@ -638,7 +638,6 @@ export const Footer = () => {
         {/* Modal */}
         <div className="modal fade" id="search_bar" role="dialog">
           <div className="modal-dialog">
-            {/* Modal content*/}
             <div className="modal-content">
               <div className="modal-header">
                 <button type="button" className="close" data-dismiss="modal"><i className="fa fa-close" /></button>
