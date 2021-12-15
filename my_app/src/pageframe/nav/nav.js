@@ -25,7 +25,7 @@ export const Nav = () => {
                           <i className="fa fa-envelope-o" />
                         </span>
                         <span className="topbar-hightlight">
-                          <a href="mailto:info@yourdomain.com">
+                          <a href="/mailto:info@yourdomain.com">
                             getit@gmail.com
                           </a>
                         </span>
@@ -58,7 +58,7 @@ export const Nav = () => {
                 </div>
                 <div className="float-right">
                   <div className="make_appo">
-                    <a className="btn white_btn" href="make_appointment.html">
+                    <a className="btn white_btn" href="/make_appointment.html">
                       Contáctenos
                     </a>
                   </div>
@@ -72,8 +72,8 @@ export const Nav = () => {
             <div className="row ml-5 mr-5">
               <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                 <div className="logo">
-                  <a href="it_home.html">
-                    <img src="images/logos/it_logo.png" style={{height: '90px'}} alt="logo" />
+                  <a href="/it_home.html">
+                    <img src="/images/logos/it_logo.png" style={{height: '90px'}} alt="logo" />
                   </a>
                 </div>
               </div>
@@ -94,55 +94,55 @@ export const Nav = () => {
                   <div id="navbar_menu">
                     <ul className="first-ul">
                       <li>
-                        <a className="active" href="it_home.html">
+                        <a className="active" href="/it_home.html">
                           Home
                         </a>
                         <ul>
                           <li>
-                            <a href="it_home.html">
+                            <a href="/it_home.html">
                               It Home Page
                             </a>
                           </li>
                           <li>
-                            <a href="it_home_dark.html">
+                            <a href="/it_home_dark.html">
                               It Dark Home Page
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="it_about.html">Regístrate</a>
+                        <a href="/registro/">Regístrate</a>
                       </li>
                       <li>
-                        <a href="formulario_InicioDeSesion.html">
+                        <a href="/login/">
                           Inicia Sesión
                         </a>
                       </li>
                       <li>
-                        <a href="it_service.html">Servicios</a>
+                        <a href="/it_service.html">Servicios</a>
                         <ul>
                           <li>
-                            <a href="it_service_list.html">
+                            <a href="/lista_servicios/">
                               Lista de Servicios
                             </a>
                           </li>
                           <li>
-                            <a href="it_shop.html">
+                            <a href="/it_shop.html">
                               Solicitar Servicios
                             </a>
                           </li>
                           <li>
-                            <a href="it_contact.html">
+                            <a href="/it_contact.html">
                               Contáctenos
                             </a>
                             <ul>
                               <li>
-                                <a href="it_contact.html">
+                                <a href="/it_contact.html">
                                   Contact Page 1
                                 </a>
                               </li>
                               <li>
-                                <a href="it_contact_2.html">
+                                <a href="/it_contact_2.html">
                                   Contact Page 2
                                 </a>
                               </li>
@@ -155,7 +155,7 @@ export const Nav = () => {
                   <div className="search_icon">
                     <ul>
                       <li>
-                        <a href="#" data-toggle="modal" data-target="#search_bar">
+                        <a href="/#" data-toggle="modal" data-target="#search_bar">
                           <i className="fa fa-search" aria-hidden="true" />
                         </a>
                       </li>

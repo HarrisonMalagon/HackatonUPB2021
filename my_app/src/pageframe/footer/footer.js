@@ -20,7 +20,7 @@ export const Footer = () => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon"> <img src="images/it_service/i1.png" alt="#" /> </div>
+                    <div className="icon"> <img src="/images/it_service/i1.png" alt="#" /> </div>
                   </div>
                   <h4 className="theme_color">Servicio doméstico</h4>
                   <p>Contrata y valora la calidad del servicio</p>
@@ -29,7 +29,7 @@ export const Footer = () => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon"> <img src="images/it_service/i2.png" alt="#" /> </div>
+                    <div className="icon"> <img src="/images/it_service/i2.png" alt="#" /> </div>
                   </div>
                   <h4 className="theme_color">Reparación/Mantenimiento de Computadores</h4>
                   <p>Especialistas en lo que necesitas</p>
@@ -38,7 +38,7 @@ export const Footer = () => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon"> <img src="images/it_service/i3.png" alt="#" /> </div>
+                    <div className="icon"> <img src="/images/it_service/i3.png" alt="#" /> </div>
                   </div>
                   <h4 className="theme_color">Servicios de plomería, electricidad, Cerrajería</h4>
                   <p>Asistencias en lo que necesites</p>
@@ -47,7 +47,7 @@ export const Footer = () => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30 margin_0">
                   <div className="center">
-                    <div className="icon"> <img src="images/it_service/i4.png" alt="#" /> </div>
+                    <div className="icon"> <img src="/images/it_service/i4.png" alt="#" /> </div>
                   </div>
                   <h4 className="theme_color">Obras o reformas</h4>
                   <p>Reformas de casas, aptos</p>
@@ -62,7 +62,7 @@ export const Footer = () => {
               <div className="panel-group" id="accordion">
                 <div className="panel panel-default">
                   <div className="panel-heading">
-                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i className="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i className="fa fa-angle-down"></i></a> </p>
+                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="/#collapseOne"><i className="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i className="fa fa-angle-down"></i></a> </p>
                   </div>
                   <div id="collapseOne" className="panel-collapse collapse in">
                     <div className="panel-body">
@@ -74,7 +74,7 @@ export const Footer = () => {
                 </div>
                 <div className="panel panel-default">
                   <div className="panel-heading">
-                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i className="fa fa-plane"></i> Recovery Photo, Image, Video and Audio<i className="fa fa-angle-down"></i></a> </p>
+                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="/#collapseTwo"><i className="fa fa-plane"></i> Recovery Photo, Image, Video and Audio<i className="fa fa-angle-down"></i></a> </p>
                   </div>
                   <div id="collapseTwo" className="panel-collapse collapse">
                     <div className="panel-body">
@@ -86,7 +86,7 @@ export const Footer = () => {
                 </div>
                 <div className="panel panel-default">
                   <div className="panel-heading">
-                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><i className="fa fa-star"></i> Mobile Phone Recovery<i className="fa fa-angle-down"></i></a> </p>
+                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="/#collapseThree"><i className="fa fa-star"></i> Mobile Phone Recovery<i className="fa fa-angle-down"></i></a> </p>
                   </div>
                   <div id="collapseThree" className="panel-collapse collapse">
                     <div className="panel-body">
@@ -98,7 +98,7 @@ export const Footer = () => {
                 </div>
                 <div className="panel panel-default">
                   <div className="panel-heading">
-                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><i className="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i className="fa fa-angle-down"></i></a> </p>
+                    <p className="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="/#collapseFour"><i className="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i className="fa fa-angle-down"></i></a> </p>
                   </div>
                   <div id="collapseFour" className="panel-collapse collapse in">
                     <div className="panel-body">
@@ -118,7 +118,7 @@ export const Footer = () => {
           <h3>Need file recovery?</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
             quasi architecto beatae vitae dicta sunt explicabo.. </p>
-          <p><a className="btn main_bt" href="#">Read More</a></p>
+          <p><a className="btn main_bt" href="/#">Read More</a></p>
         </div>
       </div>
     </div>*/}
@@ -144,7 +144,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/slide3.jpg" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/slide3.jpg" alt="#" /></div>
                         <h4 className="service-heading">Servicio rápido</h4>
                         <p>Arregla el horario que convenga para ti y el prestador del servicio.</p>
                       </div>
@@ -153,7 +153,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/si2.png" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/si2.png" alt="#" /></div>
                         <h4 className="service-heading">Pagas después de recibir el servicio </h4>
                         <p>No necesitas pagar por adelantado, cuando tu servicio se complete puedes pagarlo.</p>
                       </div>
@@ -162,7 +162,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/si3.png" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/si3.png" alt="#" /></div>
                         <h4 className="service-heading">Personas con experiencia</h4>
                         <p>Excelente personal con experiencia para realizar las tareas que necesitas</p>
                       </div>
@@ -171,7 +171,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/si4.png" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/si4.png" alt="#" /></div>
                         <h4 className="service-heading">Donde lo necesites</h4>
                         <p>Acuerda con el prestador del servicio el lugar para realizar el mantenimiento.</p>
                       </div>
@@ -180,7 +180,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/si5.png" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/si5.png" alt="#" /></div>
                         <h4 className="service-heading">Truequea un servicio</h4>
                         <p>Puedes acceder a un servicio, intercambiando tus conocimientos- con otro usuario.</p>
                       </div>
@@ -189,7 +189,7 @@ export const Footer = () => {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left"><img src="images/it_service/si6.png" alt="#" /></div>
+                        <div className="icon text_align_left"><img src="/images/it_service/si6.png" alt="#" /></div>
                         <h4 className="service-heading">Califica tu servicio</h4>
                         <p>Puntuar el servicio recibido.</p>
                       </div>
@@ -220,7 +220,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/1.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de Aseo</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de Aseo</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -237,7 +237,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/2.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicio de plomeria</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicio de plomeria</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -254,7 +254,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/3.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de instalación de lámparas</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de instalación de lámparas</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -271,7 +271,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/4.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicio de mantenimiento de tuberias, redes eléctricas</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicio de mantenimiento de tuberias, redes eléctricas</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -288,7 +288,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/5.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicio de construcción</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicio de construcción</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -305,7 +305,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/6.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicio de vidrieria</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicio de vidrieria</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -322,7 +322,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/7.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de mantenimiento/reparación computadores</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de mantenimiento/reparación computadores</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -339,7 +339,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/8.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de maquillaje</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de maquillaje</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -356,7 +356,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/9.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de costura</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de costura</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -373,7 +373,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/10.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Servicios de mercado a domicilio</a></h4>
+                    <h4><a href="/it_shop_detail.html">Servicios de mercado a domicilio</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -390,7 +390,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/11.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Reparación/Construcción de zapatos a medida</a></h4>
+                    <h4><a href="/it_shop_detail.html">Reparación/Construcción de zapatos a medida</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -407,7 +407,7 @@ export const Footer = () => {
                 <div className="product_img"> <img className="img-responsive" src="images/it_service/12.jpg" alt="" /> </div>
                 <div className="product_detail_btm">
                   <div className="center">
-                    <h4><a href="it_shop_detail.html">Relojería</a></h4>
+                    <h4><a href="/it_shop_detail.html">Relojería</a></h4>
                   </div>
                   <div className="starratin">
                     <div className="center"> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star" aria-hidden="true" /> <i className="fa fa-star-o" aria-hidden="true" /> </div>
@@ -489,7 +489,7 @@ export const Footer = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="full blog_colum">
-                  <div className="blog_feature_img"> <img src="images/it_service/post-03.jpg" alt="#" /> </div>
+                  <div className="blog_feature_img"> <img src="/images/it_service/post-03.jpg" alt="#" /> </div>
                   <div className="post_time">
                     <p><i className="fa fa-clock-o" /> April 16, 2018 ( In Maintenance )</p>
                   </div>
@@ -503,7 +503,7 @@ export const Footer = () => {
               </div>
               <div className="col-md-4">
                 <div className="full blog_colum">
-                  <div className="blog_feature_img"> <img src="images/it_service/post-04.jpg" alt="#" /> </div>
+                  <div className="blog_feature_img"> <img src="/images/it_service/post-04.jpg" alt="#" /> </div>
                   <div className="post_time">
                     <p><i className="fa fa-clock-o" /> April 16, 2018 ( In Maintenance )</p>
                   </div>
@@ -517,7 +517,7 @@ export const Footer = () => {
               </div>
               <div className="col-md-4">
                 <div className="full blog_colum">
-                  <div className="blog_feature_img"> <img src="images/it_service/post-06.jpg" alt="#" /> </div>
+                  <div className="blog_feature_img"> <img src="/images/it_service/post-06.jpg" alt="#" /> </div>
                   <div className="post_time">
                     <p><i className="fa fa-clock-o" /> April 16, 2018 ( In Maintenance )</p>
                   </div>
@@ -561,7 +561,7 @@ export const Footer = () => {
                       <div className="carousel-item active">
                         <div className="testimonial-container">
                           <div className="testimonial-content"> Me gustó mucho la página debido a que se encuentran las soluciones y asistencias a todo lo que requiero. </div>
-                          <div className="testimonial-photo"> <img src="images/it_service/client1.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
+                          <div className="testimonial-photo"> <img src="/images/it_service/client1.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
                           <div className="testimonial-meta">
                             <h4>Maria Gómez</h4>
                             <span className="testimonial-position">Cali</span> </div>
@@ -570,7 +570,7 @@ export const Footer = () => {
                       <div className="carousel-item">
                         <div className="testimonial-container">
                           <div className="testimonial-content"> La página es útil, me dejó publicar mi servicio y consegui bastantes clientes para servirles en lo que requieren de costura. </div>
-                          <div className="testimonial-photo"> <img src="images/it_service/client2.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
+                          <div className="testimonial-photo"> <img src="/images/it_service/client2.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
                           <div className="testimonial-meta">
                             <h4>Estefany Góngora</h4>
                             <span className="testimonial-position">Medellin</span> </div>
@@ -579,7 +579,7 @@ export const Footer = () => {
                       <div className="carousel-item">
                         <div className="testimonial-container">
                           <div className="testimonial-content"> Lo útil de la pagina es poder puntuar los servicios que se brindan, ya que en ocasiones se generan servicios no óptimos, pero en este caso fue acorde a lo requerido. </div>
-                          <div className="testimonial-photo"> <img src="images/it_service/client3.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
+                          <div className="testimonial-photo"> <img src="/images/it_service/client3.jpg" className="img-responsive" alt="#" width={150} height={150} /> </div>
                           <div className="testimonial-meta">
                             <h4>Cristina Muñoz</h4>
                             <span className="testimonial-position">Bogotá</span> </div>
@@ -603,12 +603,12 @@ export const Footer = () => {
               <div className="col-md-12">
                 <div className="full">
                   <div className="contact_us_section">
-                    <div className="call_icon"> <img src="images/it_service/phone_icon.png" alt="#" /> </div>
+                    <div className="call_icon"> <img src="/images/it_service/phone_icon.png" alt="#" /> </div>
                     <div className="inner_cont">
                       <h2>¿Deseas unirte a nuestro equipo?</h2>
                       <p>Tienes un servicio y no sabes ¿cómo colgarlo en la página?.</p>
                     </div>
-                    <div className="button_Section_cont"> <a className="btn dark_gray_bt" href="it_contact.html">Contáctenos</a> </div>
+                    <div className="button_Section_cont"> <a className="btn dark_gray_bt" href="/it_contact.html">Contáctenos</a> </div>
                   </div>
                 </div>
               </div>
@@ -623,11 +623,11 @@ export const Footer = () => {
               <div className="col-md-12">
                 <div className="full">
                   <ul className="brand_list">
-                    <li><img src="images/it_service/brand_icon1.png" alt="#" /></li>
-                    <li><img src="images/it_service/brand_icon2.png" alt="#" /></li>
-                    <li><img src="images/it_service/brand_icon3.png" alt="#" /></li>
-                    <li><img src="images/it_service/brand_icon4.png" alt="#" /></li>
-                    <li><img src="images/it_service/brand_icon5.png" alt="#" /></li>
+                    <li><img src="/images/it_service/brand_icon1.png" alt="#" /></li>
+                    <li><img src="/images/it_service/brand_icon2.png" alt="#" /></li>
+                    <li><img src="/images/it_service/brand_icon3.png" alt="#" /></li>
+                    <li><img src="/images/it_service/brand_icon4.png" alt="#" /></li>
+                    <li><img src="/images/it_service/brand_icon5.png" alt="#" /></li>
                   </ul>
                 </div>
               </div>
@@ -676,9 +676,9 @@ export const Footer = () => {
                   </div>
                   <p>GET IT! Es una página centrada en la logística de servicios de asistencia a los usuarios que necesiten servicios técnicos o profesionales en diferentes áreas. Por medio de nuestra página, puedes recibir un servicio integral y oportuno de acuerdo a los horarios que se concierten con el prestador del servicio. Además, si deseas ofrecer un servicio puedes hacerlo y ser puntuado según la calidad que le brindes a tus clientes. Nuestro plus es truequear un servicio por otro, de manera que puedes intercambiar algo que conoces por lo que necesites.</p>
                   <ul className="social_icons">
-                    <li className="social-icon fb"><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                    <li className="social-icon tw"><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                    <li className="social-icon gp"><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
+                    <li className="social-icon fb"><a href="/#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
+                    <li className="social-icon tw"><a href="/#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                    <li className="social-icon gp"><a href="/#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
                   </ul>
                 </div>
                 <div className="col-md-6">
@@ -686,9 +686,9 @@ export const Footer = () => {
                     <h2>Links adicionales</h2>
                   </div>
                   <ul className="footer-menu">
-                    <li><a href="it_about.html"><i className="fa fa-angle-right" /> Acerca de nosotros</a></li>
-                    <li><a href="it_term_condition.html"><i className="fa fa-angle-right" /> Terminos y condiciones</a></li>
-                    <li><a href="it_contact.html"><i className="fa fa-angle-right" /> Contáctenos</a></li>
+                    <li><a href="/it_about.html"><i className="fa fa-angle-right" /> Acerca de nosotros</a></li>
+                    <li><a href="/it_term_condition.html"><i className="fa fa-angle-right" /> Terminos y condiciones</a></li>
+                    <li><a href="/it_contact.html"><i className="fa fa-angle-right" /> Contáctenos</a></li>
                   </ul>
                 </div>
                 <div className="col-md-6">
@@ -696,7 +696,7 @@ export const Footer = () => {
                     <h2>Servicios</h2>
                   </div>
                   <ul className="footer-menu">
-                    <li><a href="it_data_recovery.html"><i className="fa fa-angle-right" /> Servicios</a></li>
+                    <li><a href="/it_data_recovery.html"><i className="fa fa-angle-right" /> Servicios</a></li>
 
                   </ul>
                 </div>
@@ -705,7 +705,7 @@ export const Footer = () => {
                     <h2>Contáctenos</h2>
                   </div>
                   <p>Colombia<br />
-                    <span style={{fontSize: '18px'}}><a href="tel:+9876543210">3156544332</a></span></p>
+                    <span style={{fontSize: '18px'}}><a href="/tel:+9876543210">3156544332</a></span></p>
                   <div className="footer_mail-section">
                     <form>
                       <fieldset>
