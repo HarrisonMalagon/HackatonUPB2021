@@ -29,7 +29,7 @@ function AppRouter() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/registro" element={<Registro />}></Route>
           <Route path="/lista_servicios" element={<Lista_servicios />}></Route>
-          <Route path="/detalle_servicio" element={<Detalle_servicio />}></Route>
+          <Route path="/detalle_servicio/:id" element={<Detalle_servicio />}></Route>
           <Route path="/servicios/nuevo" element={<Nuevo_servicio />}></Route>
           </Routes>
           

@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Image } from "semantic-ui-react";
+import { Contenido_servicios } from "../components/contenido_servicios";
 
 
 export const Index = () => {
@@ -58,6 +59,7 @@ export const Index = () => {
         );
       })}
     </Carousel>*/}
+    <Contenido_servicios />
 </div>
   )
 }
