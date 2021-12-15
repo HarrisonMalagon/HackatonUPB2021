@@ -17,7 +17,7 @@ class ServicioController{
     }
     getServicioCategory(req, res){
             let category = req.params.category;
-            Servicio.findOne({category: category}, (error, data)=>{
+            Servicio.find({category: category}, (error, data)=>{
                 if(error){
                     res.status(500).send();
                 }else{
