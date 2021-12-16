@@ -2,8 +2,10 @@
 const express = require('express');
 const PersonaRouter = require('./routers/personaRouter');
 const ServicioRouter = require('./routers/servicioRouter');
+const TipoCategoriaRouter= require('./routers/tipoCategoriaRouter');
 const mongoose = require('mongoose');
 const key_database = require('./database/key_database');
+const tipodeCategoriaRouter = require('./routers/tipoCategoriaRouter');
 
 class Server{
     // METODO CONSTRUCTOR - construc
@@ -33,11 +35,13 @@ class Server{
         //CREAR OBJETOS ROUTERS
         const objPersonaR = new PersonaRouter();
         const objServicioR = new ServicioRouter();
+        const objtipoCategoriaR = new tipodeCategoriaRouter();
 
         // *******Añadir rutas a express******
         this.app.use(router);
         this.app.use(objPersonaR.router)
         this.app.use(objServicioR.router)
+        this.app.use(objtipoCategoriaR.router)
 
         // Levantar el servidor o Ponerlo a la escucha
         this.app.listen(this.app.get('port'),()=>{
